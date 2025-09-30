@@ -1,0 +1,134 @@
+body {
+    box-sizing: border-box;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: linear-gradient(#374151, #111827);
+    background-repeat: no-repeat;
+    font-family: Roboto;
+    color: #FFFF;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item-logo{
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    margin-right: 11px;
+    border-radius: 3px;
+    background-color: #4B5563;
+    justify-content: center;
+    align-items: center;
+}
+.logo span {
+    font-weight: bold;
+}
+
+.nav-item-menu {
+    font-size: 16px;
+    display: flex;
+}
+
+.nav-item-menu li {
+    margin:0px 30px;
+}
+
+.search-input {
+    width: 224px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    color: #FFFF;
+    background-color: #4B5563
+}
+
+.search-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    border: none;
+    background-color: #4B5563;
+    color: #FFFF;
+    margin-left: 11px;
+}
+
+article {
+    margin: 60px auto 0;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    font-size: 14px;
+}
+
+article h1 {
+    max-width: 525px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.about-author {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    margin: 40px 0;
+}
+
+.about-author img{
+    width: auto;
+    height: 50px;
+}
+
+.about-author p{
+    font-size: 15px;
+    margin: 0 16px;
+
+}
+
+.about-author span{
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.article-image {
+    width: 896px;
+}
+
+.article-text {
+     margin: 40px 0;
+     width: 708px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
