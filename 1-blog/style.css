@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     font-family: Roboto;
     color: #FFFF;
+    min-height: 100vh;
 }
 
 a {
@@ -70,3 +71,64 @@ ul {
     color: #FFFF;
     margin-left: 11px;
 }
+
+article {
+    margin: 60px auto 0;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    font-size: 14px;
+}
+
+article h1 {
+    max-width: 525px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.about-author {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    margin: 40px 0;
+}
+
+.about-author img{
+    width: auto;
+    height: 50px;
+}
+
+.about-author p{
+    font-size: 15px;
+    margin: 0 16px;
+
+}
+
+.about-author span{
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.article-image {
+    width: 896px;
+}
+
+.article-text {
+     margin: 40px 0;
+     width: 708px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
